@@ -1,0 +1,362 @@
+body,
+html {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+}
+
+body {
+    font-family: roboto;
+    font-size: 12px;
+    color: #424242;
+}
+
+h1 {
+    margin: auto;
+}
+
+h2,
+h3,
+h4,
+h5 {
+    margin: 0;
+}
+
+header,
+nav,
+footer,
+section,
+article,
+div {
+    box-sizing: border-box;
+}
+
+main {
+    width: 78.45%;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.4);
+    margin-right: auto;
+    margin-left: auto;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+header {
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.4);
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.insideheader h1 {
+    text-align: center;
+    padding: 12px 0px 12px 0px;
+}
+
+.logo {
+    height: 50px;
+    width: 50px;
+    padding-right: 12px;
+    vertical-align: middle;
+}
+
+nav {
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    font-size: 16px;
+}
+
+.nav_list {
+    box-sizing: border-box;
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+    padding: 20px;
+}
+
+nav li {
+    display: inline-block;
+}
+
+nav a {
+    text-decoration: none;
+    color: black;
+    padding: 10px 10px 10px 10px;
+}
+
+.list {
+    padding: 0px 25px 0px 25px;
+}
+
+.topnews {
+    float: left;
+    width: 50%;
+    position: relative;
+    background-image: url("./images/news1.jpg");
+    background-size: cover;
+    height: 300px;
+}
+
+.explain {
+    box-sizing: border-box;
+    background-color: rgba(0, 0, 0, 0.8);
+    position: absolute;
+    bottom: 0;
+    height: 40%;
+    width: 100%;
+    padding: 12px;
+    color: white;
+}
+
+.explain p {
+    margin: 0;
+}
+
+.newsoutside {
+    float: right;
+    width: 50%;
+    height: 300px;
+    border-bottom: 1px solid grey;
+    padding: 12px;
+}
+
+.newsinside {
+    font-size: 16px;
+    border-bottom: 1px solid gray;
+}
+
+.newsinside span {
+    float: right;
+}
+
+.newsinside a {
+    text-decoration: none;
+    color: black;
+}
+
+.list1 {
+    border-bottom: 1px solid gray;
+    padding: 12px 0;
+}
+
+.list1:last-child {
+    border-bottom: none;
+}
+
+.list1 a {
+    text-decoration: none;
+    color: black;
+}
+
+.scroll {
+    overflow: hidden;
+    overflow-y: auto;
+    height: 260px;
+}
+
+.tables {
+    width: 50%;
+    float: left;
+    padding: 12px;
+    height: 220px;
+}
+
+.tab {
+    width: 100%;
+    border-collapse: collapse;
+    height: 200px;
+}
+
+.tab th,
+.tab td {
+    padding: 12px;
+}
+
+.tab th {
+    color: #fff;
+    font-weight: 700;
+    background-color: grey;
+}
+
+.tab tr:nth-child(even) td {
+    background-color: ghostwhite;
+}
+
+.tab td.own {
+    font-weight: bold;
+}
+
+.tab td:nth-child(3) {
+    text-align: right;
+}
+
+.tab td:nth-child(2),
+.tab td:nth-child(5),
+.tab td:nth-child(1) {
+    text-align: center;
+}
+
+.newslist {
+    clear: both;
+    margin: 20px 0;
+}
+
+.newslist img {
+    width: 50px;
+    float: left;
+    margin: 8px 12px 0px 8px;
+}
+
+.newslist h3 {
+    font-weight: 700;
+}
+
+.newslist p {
+    text-align: justify;
+    margin: 0px 8px 0px 8px;
+}
+
+.newslist h3 a {
+    text-decoration: none;
+    color: black;
+}
+
+.breakingnews {
+    clear: both;
+}
+
+.breakingnews span {
+    float: right;
+}
+
+.breakingnews h2 {
+    border-bottom: 1px solid gray;
+    margin-left: 12px;
+    margin-right: 12px;
+}
+
+.breakingnews h2 a {
+    text-decoration: none;
+    color: black;
+}
+
+.weather {
+    float: right;
+    width: 50%;
+    height: 220px;
+}
+
+.location {
+    padding: 10px 0px 0px 0px;
+    display: block;
+    font-weight: bolder;
+    font-size: 16px;
+}
+
+.season {
+    display: block;
+    font-size: 14px;
+}
+
+.today {
+    width: 50%;
+    height: 50%;
+    vertical-align: middle;
+}
+
+.today_image {
+    vertical-align: middle;
+    height: 50px;
+    width: 75px;
+}
+
+.temperature {
+    font-size: 12px;
+}
+
+.item {
+    display: inline-block;
+    text-align: center;
+    margin-right: 15px;
+    margin-left: 15px;
+}
+
+.item span {
+    display: block;
+}
+
+.weatherforecast {
+    width: 100%;
+    height: 105px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+footer {
+    box-align: left;
+    border-top: 1px solid grey;
+    padding: 8px;
+    text-align: left;
+    border-top: 1px solid gray;
+}
+
+footer ul {
+    height: auto;
+    padding: 8px 0px;
+    margin: 0px;
+}
+
+footer li {
+    display: inline-block;
+}
+
+footer a {
+    text-decoration: none;
+    color: black;
+    padding: 8px 8px 8px 8px;
+}
+
+.dropbtn {
+    border: none;
+    background-color: white;
+}
+
+.dropbtn img {
+    width: 25px;
+    height: 25px;
+    vertical-align: middle;
+    padding: 5px 5px 5px 5px;
+}
+
+.dropdown {
+    position: relative;
+    display: none;
+    float: right;
+    padding: 10px 10px 10px 0px;
+    vertical-align: middle;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    right: 0;
+    background-color: white;
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 12px;
+    min-width: 160px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
